@@ -2,6 +2,14 @@
 
 A simple http client and server. Run server on one machine and then run client on another machine.
 
+## Running Server
+./http_server [Port]
+
+e.g
+
+./http_server 8888
+
+## Running client
 ./http_client http://hostname[:port]/path/to/file
 
 e.g.
